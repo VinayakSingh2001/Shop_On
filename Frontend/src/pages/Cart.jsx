@@ -6,6 +6,8 @@ import Fotter from '../components/Fotter';
 import styled from 'styled-components';
 import { Add, Remove } from '@mui/icons-material';
 import { mobile } from "../responsive";
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 
 
@@ -159,6 +161,7 @@ const Button = styled.button`
 
 
 const Cart = () => {
+  const cart = useSelector(state=>state.cart)
   return (
     <Container>
         <Navbar/>

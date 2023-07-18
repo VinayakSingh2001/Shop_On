@@ -3,6 +3,7 @@ import {
   SearchOutlined,
   ShoppingCartOutlined,
 } from "@mui/icons-material";
+import { Link } from "@mui/material";
 import styled from "styled-components";
 
 const Info = styled.div`
@@ -77,7 +78,10 @@ const Product = ({ item }) => {
             <ShoppingCartOutlined />
           </Icon>
           <Icon>
-            <SearchOutlined />
+            <Link to={`product${item.id}`}>
+              <SearchOutlined />
+            </Link>
+            
           </Icon>
           <Icon>
             <FavoriteBorderOutlined />

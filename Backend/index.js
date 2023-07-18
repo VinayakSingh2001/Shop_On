@@ -19,12 +19,12 @@ mongoose.connect(process.env.MONGO_URL).then(()=>console.log("DB Connection succ
 
 app.use(cors());
 app.use(express.json());
-app.use("/Backend/auth", authRoute);
-app.use("/Backend/users", userRoute);
-app.use("/Backend/products", productRoute);
-app.use("/Backend/carts", cartRoute);
-app.use("/Backend/orders", orderRoute);
-app.use("/Backend/checkout", stripeRoute);
+app.use("/api/auth", authRoute);
+app.use("/api/users", userRoute);
+app.use("/api/products", productRoute);
+app.use("/api/carts", cartRoute);
+app.use("/api/orders", orderRoute);
+app.use("/api/checkout", stripeRoute);
 
 
 app.listen(process.env.PORT || 3000,()=>{
