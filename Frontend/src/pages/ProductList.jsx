@@ -11,6 +11,8 @@ import { useState } from "react";
 
 
 
+
+
 const Container = styled.div``;
 
 const Title = styled.h1`
@@ -52,21 +54,24 @@ const ProductList = () => {
     const value = e.target.value;
     setFilters({
       ...filters,
-      [e.target.name]: value.toLowerCase,
+      [e.target.name]: value,
     });
   };
 
+  console.log(filters)
 
   return (
     <Container>
       <Navbar />
       <Announcement />
-      <Title>{cat}</Title>
+      <Title>Dresses</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
           <Select name="color" onChange={handleFilters}>
-            <Option disabled>Color</Option>
+            <Option disabled>
+              Color
+            </Option>
             <Option>white</Option>
             <Option>black</Option>
             <Option>red</Option>
@@ -75,7 +80,9 @@ const ProductList = () => {
             <Option>green</Option>
           </Select>
           <Select name="size" onChange={handleFilters}>
-            <Option disabled>Size</Option>
+            <Option disabled>
+              Size
+            </Option>
             <Option>XS</Option>
             <Option>S</Option>
             <Option>M</Option>
@@ -86,7 +93,7 @@ const ProductList = () => {
         <Filter>
           <FilterText>Sort Products:</FilterText>
           <Select onChange={(e) => setSort(e.target.value)}>
-            <Option value="newest">Newest</Option>
+          <Option value="newest">Newest</Option>
             <Option value="asc">Price (asc)</Option>
             <Option value="desc">Price (desc)</Option>
           </Select>

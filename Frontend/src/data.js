@@ -1,79 +1,79 @@
 export const sliderItems = [
-  {
-    id: 1,
-    img: "./first.jpg",
-    title: "SUMMER SALE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "f5fafd",
-  },
-  {
-    id: 2,
-    img: "./first.jpg",
-    title: "AUTUMN COLLECTION",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "fcf1ed",
-  },
-  {
-    id: 3,
-    img: "./first.jpg",
-    title: "LOUNGEWEAR LOVE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "fbf0f4",
-  },
-];
+    {
+      id: 1,
+      img: "./first.jpg",
+      title: "SUMMER SALE",
+      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      bg: "f5fafd",
+    },
+    {
+      id: 2,
+      img: "./first.jpg",
+      title: "AUTUMN COLLECTION",
+      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      bg: "fcf1ed",
+    },
+    {
+      id: 3,
+      img: "./first.jpg",
+      title: "LOUNGEWEAR LOVE",
+      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      bg: "fbf0f4",
+    },
+  ];
 
-export const categories = [
-  {
-    id: 1,
-    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "SHIRT STYLE!",
-    cat:"women"
-  },
-  {
-    id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "LOUNGEWEAR LOVE",
-    cat:"coat"
-  },
-  {
-    id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    title: "LIGHT JACKETS",
-    cat:"jeans"
-  },
-];
+  export const categories = [
+    {
+      id: 1,
+      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "SHIRT STYLE!",
+      cat:"women",
+    },
+    {
+      id: 2,
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "LOUNGEWEAR LOVE",
+      cst:"men",
+    },
+    {
+      id: 3,
+      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      title: "LIGHT JACKETS",
+      cat:"jacket"
+    },
+  ];
 
-export const popularProducts = [
-  {
-    id:1,
-    img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-  },
-  {
-    id:2,
-    img:"https://flashbackshop.com/cdn/shop/products/2176020-Natural1637978660.png?v=1639019567&width=1946",
-  },
-  {
-    id:3,
-    img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
-  },
-  {
-    id:4,
-    img:"https://m.media-amazon.com/images/I/41+WeREGA9L.jpg",
-  },
-  {
-    id:5,
-    img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
-  },
-  {
-    id:6,
-    img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
-  },
-  {
-    id:7,
-    img:"https://flashbackshop.com/cdn/shop/products/2176020-Navy1649671782.png?v=1649671833&width=1946",
-  },
-  {
-    id:8,
-    img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
-  },
-]
+  export const popularProducts = [
+    {
+      id:1,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-Black1638601977.png?v=1638604982&width=1946",
+    },
+    {
+      id:2,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-Black1631019079.png?v=1631019761&width=1946",
+    },
+    {
+      id:3,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-White1638896724.png?v=1638896823&width=1946",
+    },
+    {
+      id:4,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-White1636127028.png?v=1638844386&width=1946",
+    },
+    {
+      id:5,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-Black1618522067.png?v=1618525035&width=1946",
+    },
+    {
+      id:6,
+      img:"https://flashbackshop.com/cdn/shop/products/Black_b344b1ec-5a03-4ad9-ba7b-c7d3421555da.jpg?v=1677342672&width=1946",
+    },
+    {
+      id:7,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-Maroon1649671782.png?v=1649671833&width=1946",
+    },
+    {
+      id:8,
+      img:"https://flashbackshop.com/cdn/shop/products/2176020-White1650549197.png?v=1650553443&width=1946",
+    },
+  ]
